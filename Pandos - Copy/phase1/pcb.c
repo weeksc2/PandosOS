@@ -55,7 +55,7 @@ int emptyProcQ (pcb_PTR tp) // Done
  
 void insertProcQ (pcb_PTR tp, pcb_PTR p)
 {	
-   	//if q empty then tail pointer points to p 
+   	/* if q empty then tail pointer points to p */ 
 	if(emptyProcQ(tp))
 	{
 		p->p_next=tp; // Def not correct (will fix)
